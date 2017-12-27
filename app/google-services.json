@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "656898430573",
+    "firebase_url": "https://myactivitytracker-ea826.firebaseio.com",
+    "project_id": "myactivitytracker-ea826",
+    "storage_bucket": "myactivitytracker-ea826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656898430573:android:835f1b5bf0d35ed7",
+        "android_client_info": {
+          "package_name": "com.bodhi.llc.myactivitytracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656898430573-tngjdh15fqkpf901fl05pa5lqc45trl2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bodhi.llc.myactivitytracker",
+            "certificate_hash": "900043a989dafc1f3b754bbf275ee7bebbd9b74a"
+          }
+        },
+        {
+          "client_id": "656898430573-plq84a8sas0isnu88hc2mvepe2nubjk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ-vLlurYtiY-hXCbIsn2WCAS9uWWZZOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656898430573-plq84a8sas0isnu88hc2mvepe2nubjk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

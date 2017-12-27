@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.bodhi.llc.myactivitytracker.MapsActivity" />
+
+    <TextView
+        android:id="@+id/updated_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/updated_state"
+        android:padding="10dp"
+        android:background="#99ece5e5"
+        android:text="Start Tracking"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/stop"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/updated_state"
+        android:padding="10dp"
+        android:background="#99ece5e5"
+        android:text="Stop Tracking"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+</RelativeLayout>
