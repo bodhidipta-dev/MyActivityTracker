@@ -27,9 +27,8 @@ public class Utils {
         Resources resources = context.getResources();
         switch(detectedActivityType) {
             case DetectedActivity.IN_VEHICLE:
-                return resources.getString(R.string.in_vehicle);
             case DetectedActivity.ON_BICYCLE:
-                return resources.getString(R.string.on_bicycle);
+                return resources.getString(R.string.in_vehicle);
             case DetectedActivity.ON_FOOT:
                 return resources.getString(R.string.on_foot);
             case DetectedActivity.RUNNING:
@@ -37,7 +36,6 @@ public class Utils {
             case DetectedActivity.STILL:
                 return resources.getString(R.string.still);
             case DetectedActivity.TILTING:
-                return resources.getString(R.string.tilting);
             case DetectedActivity.UNKNOWN:
                 return resources.getString(R.string.unknown);
             case DetectedActivity.WALKING:

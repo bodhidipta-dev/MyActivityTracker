@@ -23,4 +23,9 @@
     <string name="activity_updates_not_removed">Failed to remove activity updates</string>
 
     <string name="percent">%1$d%%</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
 </resources>
